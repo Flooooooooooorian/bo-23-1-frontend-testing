@@ -10,6 +10,7 @@ export default function ItemCard(props: ItemCardProps) {
         <>
             <p>
                 {props.item.name}
+                {props.item.id}
             </p>
         </>
     )

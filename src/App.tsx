@@ -15,10 +15,10 @@ function App() {
 
   return (
     <div className="App">
-        <Gallery items={items}/>
-        <AddItem addItem={addItem}/>
-
       <header className="App-header">
+          <Gallery items={items}/>
+          <AddItem addItem={addItem}/>
+
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.

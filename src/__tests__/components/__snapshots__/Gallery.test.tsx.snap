@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gallery Tests Snapshot 1`] = `
+<DocumentFragment>
+  <h1>
+    Item-Gallery
+  </h1>
+  <div>
+    item-11
+  </div>
+  <div>
+    item-22
+  </div>
+</DocumentFragment>
+`;

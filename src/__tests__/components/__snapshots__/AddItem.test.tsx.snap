@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddItem Tests add item 1`] = `
+<DocumentFragment>
+  <input
+    placeholder="Name"
+    value=""
+  />
+  <button>
+    Save
+  </button>
+</DocumentFragment>
+`;
+
+exports[`AddItem Tests add item 2`] = `
+<DocumentFragment>
+  <input
+    placeholder="Name"
+    value="test-input"
+  />
+  <button>
+    Save
+  </button>
+</DocumentFragment>
+`;
+
+exports[`AddItem Tests add item 3`] = `
+<DocumentFragment>
+  <input
+    placeholder="Name"
+    value="test-input"
+  />
+  <button>
+    Save
+  </button>
+</DocumentFragment>
+`;
+
+exports[`AddItem Tests renders correctly 1`] = `
+<DocumentFragment>
+  <input
+    placeholder="Name"
+    value=""
+  />
+  <button>
+    Save
+  </button>
+</DocumentFragment>
+`;
