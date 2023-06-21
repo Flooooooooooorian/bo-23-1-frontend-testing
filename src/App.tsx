@@ -1,10 +1,23 @@
-import React from 'react';
+import React, {useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
+import AddItem from "./components/AddItem";
+import Gallery from "./components/Gallery";
+import {Item} from "./models";
 
 function App() {
+
+    const [items, setItems] = useState<Item[]>([{id: "123", name: "test1"}, {id: "456", name: "test2"}])
+
+    const addItem = (name: string) => {
+        setItems((prevState) => [...prevState, {id: "1", name: name}])
+    }
+
   return (
     <div className="App">
+        <Gallery items={items}/>
+        <AddItem addItem={addItem}/>
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
